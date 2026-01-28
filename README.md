@@ -1,2 +1,4 @@
 TYÖKALUPAKKI
-Tässä työkalupakki, jossa on koodeja millä voit mm. katsoa koneen nimen ja ajan, levytilan, varmuuskopiontia. 
+
+
+Tässä on työkalupakki, jossa on koodeja millä voit mm. katsoa koneen nimen ja ajan, levytilan, varmuuskopiontia. 
