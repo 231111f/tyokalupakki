@@ -8,7 +8,7 @@ try {
 
 	$polku = "Raportit\PaikallisetKayttajat.csv"
 	
-	$kayttajat | Export-Csv $polku -NoTypeInformation -Encoding UTF8BOM
+	$kayttajat | Export-Csv $polku -NoTypeInformation 
 
 	Kirjoita-Loki "Raportti on luotu"
 }
