@@ -1,3 +1,11 @@
+function Luo-Kansio {
+	param ([string]$nimi)
+
+	if (-not(Test-Path -Path $nimi)) {
+		New-Item -ItemType Directory -Path $nimi | Out-Null
+	}
+}
+
 function Kirjoita-Loki {
     param (
         [string]$Viesti,
